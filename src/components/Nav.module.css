@@ -1,0 +1,61 @@
+
+.downNav {
+    height: 60px;    
+    background-color: black;
+    /* margin:5px 20px; */
+    border: 2px solid black;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+
+.downNav ul li {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23%;
+    height: 100%;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.downNav ul span {
+    margin-left: 10px;
+    opacity: 0;
+}
+
+
+.downNav ul {
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.downNav ul li {
+    cursor: pointer;
+    list-style: none;
+    border: 1px solid blue;
+}
+
+
+
+/* @media screen and (min-width:400px) {
+
+    .downNav ul li :first-child {
+        margin: 3px;
+        opacity: 1;
+        font-size: 10px;
+
+    }
+
+
+    .downNav ul span {
+        margin: 3px;
+        opacity: 1;
+        font-size: 10px;
+    }
+} */

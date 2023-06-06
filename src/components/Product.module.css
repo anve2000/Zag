@@ -1,0 +1,60 @@
+.product{
+    line-height: 10px;
+}
+
+.product .picture{
+    width: 100%;
+    min-height: 400px;
+    background-color: aquamarine;
+}
+
+.picture img{
+    height: 100%;
+    width:100%
+}
+
+.midRow{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+
+.sizer{
+    margin: 20px;
+    /* border: 2px solid salmon; */
+}
+
+.desc{
+    margin: 20px;
+    /* border: 2px solid green; */
+}
+
+.desc p{
+    padding:0 5px;
+    font-size: 10px;
+}
+
+.lastRow{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.lastRow button{
+    /* float: right; */
+    width: 50%;
+    font-weight: 700;
+}
+
+.lastRow p{
+    font-weight: 600;
+}
+
+.lastRow p span{
+    font-weight: 1000;
+    color: rgb(134, 51, 212);
+}

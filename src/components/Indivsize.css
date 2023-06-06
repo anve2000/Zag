@@ -1,0 +1,41 @@
+.size{
+    width: 20%;
+    height: 20%;
+    border: 2px solid blue;
+    position: relative;
+}
+
+input{
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+    margin: auto;
+    display: block;
+    position: relative;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+}
+
+span{
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    display: block;
+    margin: auto; 
+    border: 2px solid red;
+    /* background-color: aquamarine; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.setTofalse{
+    background-color: brown;
+}
+
+.setTotrue{
+    background-color: blue;
+}
